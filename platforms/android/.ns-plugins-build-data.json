@@ -1,0 +1,15 @@
+{
+	"@nstudio/nativescript-camera-plus": {
+		"/Users/victor/NS/testbg/node_modules/@nstudio/nativescript-camera-plus/platforms/android/include.gradle": "5e13984701c2f588bac850998baeae5371cd49f3"
+	},
+	"nativescript-background-http": {
+		"/Users/victor/NS/testbg/node_modules/nativescript-background-http/platforms/android/uploadservice-release.aar": "964ff477accc1151034191c5a928d19d7d390432"
+	},
+	"nativescript-feedback": {
+		"/Users/victor/NS/testbg/node_modules/nativescript-feedback/platforms/android/include.gradle": "00620e885c544ee027871ddb3d8dfade475f297c",
+		"/Users/victor/NS/testbg/node_modules/nativescript-feedback/platforms/android/nativescript_feedback.aar": "dc8f0f234f9919e7a465197cf24e7ad10e8ae511"
+	},
+	"tns-core-modules-widgets": {
+		"/Users/victor/NS/testbg/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "0746721bed98e833a85c066a1994200dd8dd111b"
+	}
+}

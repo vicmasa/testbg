@@ -1,0 +1,38 @@
+[
+    {
+        "name": "@nativescript/theme",
+        "directory": "../../node_modules/@nativescript/theme"
+    },
+    {
+        "name": "@nstudio/nativescript-camera-plus",
+        "directory": "../../node_modules/@nstudio/nativescript-camera-plus"
+    },
+    {
+        "name": "nativescript-background-http",
+        "directory": "../../node_modules/nativescript-background-http"
+    },
+    {
+        "name": "nativescript-bitmap-factory",
+        "directory": "../../node_modules/nativescript-bitmap-factory"
+    },
+    {
+        "name": "nativescript-feedback",
+        "directory": "../../node_modules/nativescript-feedback"
+    },
+    {
+        "name": "tns-core-modules",
+        "directory": "../../node_modules/tns-core-modules"
+    },
+    {
+        "name": "nativescript-permissions",
+        "directory": "../../node_modules/nativescript-permissions"
+    },
+    {
+        "name": "@nativescript/core",
+        "directory": "../../node_modules/@nativescript/core"
+    },
+    {
+        "name": "tns-core-modules-widgets",
+        "directory": "../../node_modules/tns-core-modules-widgets"
+    }
+]

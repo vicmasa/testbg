@@ -1,0 +1,16 @@
+<Page xmlns:Cam="@nstudio/nativescript-camera-plus" navigatingTo="onNavigatingTo">
+  <Page.actionBar>
+    <ActionBar title="Camera Plus" icon=""></ActionBar>
+  </Page.actionBar>
+    <GridLayout rows="*,auto" class="bg_red">
+      <Cam:CameraPlus row="0" id="camPlus" height="400" width="300"
+        saveToGallery="true"    
+        showCaptureIcon="true"
+        showGalleryIcon="false"
+        showToggleIcon="false"
+        showFlashIcon="false"
+        debug="true"> 
+      </Cam:CameraPlus>
+      <Button row="1" text="getPhoto" tap="tapImagenCamara" />
+    </GridLayout>
+</Page>

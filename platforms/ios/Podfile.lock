@@ -1,0 +1,76 @@
+PODS:
+  - ISMessages (1.2)
+  - MaterialComponents/AnimationTiming (94.5.0)
+  - MaterialComponents/Elevation (94.5.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (94.5.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (94.5.0)
+  - MaterialComponents/private/Application (94.5.0)
+  - MaterialComponents/private/Color (94.5.0)
+  - MaterialComponents/private/Math (94.5.0)
+  - MaterialComponents/Ripple (94.5.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (94.5.0)
+  - MaterialComponents/ShadowLayer (94.5.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Tabs (94.5.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (94.5.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - QBImagePickerController (3.4.0)
+  - SwiftyCam (3.0.0)
+
+DEPENDENCIES:
+  - ISMessages (from `https://github.com/EddyVerbruggen/ISMessages.git`, commit `9cda6db2fcb11e62b0332eedb24dbefcbb69435f`)
+  - MaterialComponents/Tabs (~> 94.5)
+  - QBImagePickerController
+  - SwiftyCam (from `https://github.com/NathanWalker/SwiftyCam.git`, branch `feature/swift-4.2`)
+
+SPEC REPOS:
+  trunk:
+    - MaterialComponents
+    - MDFInternationalization
+    - QBImagePickerController
+
+EXTERNAL SOURCES:
+  ISMessages:
+    :commit: 9cda6db2fcb11e62b0332eedb24dbefcbb69435f
+    :git: https://github.com/EddyVerbruggen/ISMessages.git
+  SwiftyCam:
+    :branch: feature/swift-4.2
+    :git: https://github.com/NathanWalker/SwiftyCam.git
+
+CHECKOUT OPTIONS:
+  ISMessages:
+    :commit: 9cda6db2fcb11e62b0332eedb24dbefcbb69435f
+    :git: https://github.com/EddyVerbruggen/ISMessages.git
+  SwiftyCam:
+    :commit: e0dfbbe0151e30805ccca43682dcb36ff353f7c7
+    :git: https://github.com/NathanWalker/SwiftyCam.git
+
+SPEC CHECKSUMS:
+  ISMessages: 6ec1ed7029ff6ca516f2ac3e597bb9986a43e132
+  MaterialComponents: 36435454351719ef5c9bf1192a25fdcd2191c712
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
+  SwiftyCam: 306eda412f19b7d17308bc6cab8eb8a09c495f6c
+
+PODFILE CHECKSUM: aa3126ff047267812ae9dda560ca68f91e28efd3
+
+COCOAPODS: 1.8.4

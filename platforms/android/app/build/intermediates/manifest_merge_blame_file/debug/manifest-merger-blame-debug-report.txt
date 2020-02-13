@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.nativescript.testbg"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml
+10
+11    <supports-screens
+11-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+12        android:largeScreens="true"
+12-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+13        android:normalScreens="true"
+13-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+14        android:smallScreens="true"
+14-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+15        android:xlargeScreens="true" />
+15-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+16
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:13:2-76
+17-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:13:19-74
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:14:2-77
+18-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:14:19-75
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:15:2-63
+19-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:15:19-61
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[com.github.triniwiz:fancycamera:1.2.3] /Users/victor/.gradle/caches/transforms-2/files-2.1/a05378912b26e5689b38e6cec55ba330/fancycamera-1.2.3/AndroidManifest.xml:9:5-65
+20-->[com.github.triniwiz:fancycamera:1.2.3] /Users/victor/.gradle/caches/transforms-2/files-2.1/a05378912b26e5689b38e6cec55ba330/fancycamera-1.2.3/AndroidManifest.xml:9:22-62
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->[com.github.triniwiz:fancycamera:1.2.3] /Users/victor/.gradle/caches/transforms-2/files-2.1/a05378912b26e5689b38e6cec55ba330/fancycamera-1.2.3/AndroidManifest.xml:11:5-71
+21-->[com.github.triniwiz:fancycamera:1.2.3] /Users/victor/.gradle/caches/transforms-2/files-2.1/a05378912b26e5689b38e6cec55ba330/fancycamera-1.2.3/AndroidManifest.xml:11:22-68
+22
+23    <uses-feature
+23-->[com.github.triniwiz:fancycamera:1.2.3] /Users/victor/.gradle/caches/transforms-2/files-2.1/a05378912b26e5689b38e6cec55ba330/fancycamera-1.2.3/AndroidManifest.xml:13:5-15:36
+24        android:name="android.hardware.microphone"
+24-->[com.github.triniwiz:fancycamera:1.2.3] /Users/victor/.gradle/caches/transforms-2/files-2.1/a05378912b26e5689b38e6cec55ba330/fancycamera-1.2.3/AndroidManifest.xml:14:9-51
+25        android:required="false" />
+25-->[com.github.triniwiz:fancycamera:1.2.3] /Users/victor/.gradle/caches/transforms-2/files-2.1/a05378912b26e5689b38e6cec55ba330/fancycamera-1.2.3/AndroidManifest.xml:15:9-33
+26    <uses-feature
+26-->[com.github.triniwiz:fancycamera:1.2.3] /Users/victor/.gradle/caches/transforms-2/files-2.1/a05378912b26e5689b38e6cec55ba330/fancycamera-1.2.3/AndroidManifest.xml:16:5-18:36
+27        android:name="android.hardware.camera.autofocus"
+27-->[com.github.triniwiz:fancycamera:1.2.3] /Users/victor/.gradle/caches/transforms-2/files-2.1/a05378912b26e5689b38e6cec55ba330/fancycamera-1.2.3/AndroidManifest.xml:17:9-57
+28        android:required="false" />
+28-->[com.github.triniwiz:fancycamera:1.2.3] /Users/victor/.gradle/caches/transforms-2/files-2.1/a05378912b26e5689b38e6cec55ba330/fancycamera-1.2.3/AndroidManifest.xml:18:9-33
+29    <uses-feature
+29-->[com.github.triniwiz:fancycamera:1.2.3] /Users/victor/.gradle/caches/transforms-2/files-2.1/a05378912b26e5689b38e6cec55ba330/fancycamera-1.2.3/AndroidManifest.xml:19:5-21:36
+30        android:name="android.hardware.camera"
+30-->[com.github.triniwiz:fancycamera:1.2.3] /Users/victor/.gradle/caches/transforms-2/files-2.1/a05378912b26e5689b38e6cec55ba330/fancycamera-1.2.3/AndroidManifest.xml:20:9-47
+31        android:required="false" />
+31-->[com.github.triniwiz:fancycamera:1.2.3] /Users/victor/.gradle/caches/transforms-2/files-2.1/a05378912b26e5689b38e6cec55ba330/fancycamera-1.2.3/AndroidManifest.xml:21:9-33
+32
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->[:uploadservice-release:] /Users/victor/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:14:5-68
+33-->[:uploadservice-release:] /Users/victor/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:14:22-65
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->[:uploadservice-release:] /Users/victor/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:15:5-77
+34-->[:uploadservice-release:] /Users/victor/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:15:22-74
+35
+36    <application
+36-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:17:2-38:16
+37        android:name="com.tns.NativeScriptApplication"
+37-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:18:3-49
+38        android:allowBackup="true"
+38-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:19:3-29
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.1.0] /Users/victor/.gradle/caches/transforms-2/files-2.1/2e2076e6216b29ee97192fe17edf1ebc/core-1.1.0/AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@drawable/icon"
+41-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:20:3-32
+42        android:label="@string/app_name"
+42-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:21:3-35
+43        android:theme="@style/AppTheme" >
+43-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:22:3-34
+44        <activity
+44-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:24:3-36:14
+45            android:name="com.tns.NativeScriptActivity"
+45-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:25:4-47
+46            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|locale|uiMode"
+46-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:27:4-120
+47            android:label="@string/title_activity_kimera"
+47-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:26:4-49
+48            android:theme="@style/LaunchScreenTheme" >
+48-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:28:4-44
+49            <meta-data
+49-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:30:4-87
+50                android:name="SET_THEME_ON_LAUNCH"
+50-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:30:15-49
+51                android:resource="@style/AppTheme" />
+51-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:30:50-84
+52
+53            <intent-filter>
+53-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:32:4-35:20
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:33:5-57
+54-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:33:13-54
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:34:5-65
+56-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:34:15-62
+57            </intent-filter>
+58        </activity>
+59        <activity android:name="com.tns.ErrorReportActivity" />
+59-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:37:3-57
+59-->/Users/victor/NS/testbg/platforms/android/app/src/main/AndroidManifest.xml:37:13-55
+60
+61        <service
+61-->[:uploadservice-release:] /Users/victor/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:18:9-22:19
+62            android:name="net.gotev.uploadservice.UploadService"
+62-->[:uploadservice-release:] /Users/victor/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:19:13-65
+63            android:enabled="true"
+63-->[:uploadservice-release:] /Users/victor/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:20:13-35
+64            android:exported="false" >
+64-->[:uploadservice-release:] /Users/victor/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:21:13-37
+65        </service>
+66    </application>
+67
+68</manifest>
